@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Background circle / shield plate -->
+    <path
+        android:fillColor="#111B2E"
+        android:strokeColor="#263449"
+        android:strokeWidth="2"
+        android:pathData="M60,8 C88.7,8 112,31.3 112,60 C112,88.7 88.7,112 60,112 C31.3,112 8,88.7 8,60 C8,31.3 31.3,8 60,8 Z" />
+
+    <!-- Connecting curved orbital path beneath V showing dual-device linking -->
+    <path
+        android:strokeColor="#22D3EE"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M32,74 C40,90 80,90 88,74" />
+
+    <!-- V-shaped high-tech path -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M36,36 L60,82 L84,36" />
+
+    <!-- Core node (left authority) -->
+    <path
+        android:fillColor="#22D3EE"
+        android:pathData="M36,36m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Terminal node (right mobile) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M84,36m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Center secure pivot node -->
+    <path
+        android:fillColor="#F1F5F9"
+        android:pathData="M60,82m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+</vector>

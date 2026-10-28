@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">VEL</string>
+    <string name="tagline">Protección de la información</string>
+    <string name="core_role_title">VEL CORE</string>
+    <string name="core_role_desc">Dispositivo custodio y autoridad de seguridad</string>
+    <string name="terminal_role_title">VEL Terminal</string>
+    <string name="terminal_role_desc">Dispositivo móvil para conexión segura con CORE</string>
+    <string name="action_setup_core">Configurar como CORE</string>
+    <string name="action_setup_terminal">Configurar como Terminal</string>
+    <string name="action_revoke">Cambiar contraseña y revocar dispositivos autorizados</string>
+    <string name="status_preparing">Preparando solicitud</string>
+    <string name="status_sent">Enviada</string>
+    <string name="status_received_server">Recibida por el servidor</string>
+    <string name="status_pending_core">Pendiente de confirmación de CORE</string>
+    <string name="status_executed_confirmed">Ejecutada y confirmada</string>
+    <string name="status_rejected">Rechazada</string>
+    <string name="status_not_executed">No ejecutada</string>
+    <string name="status_uncertain">Resultado incierto</string>
+    <string name="status_comm_error">Error de comunicación</string>
+</resources>
